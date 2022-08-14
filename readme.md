@@ -1,6 +1,7 @@
-# Responsive calculator with dark/light theme
+# Responsive calculator with dark/light theme 
 
-Calculator: 
+#### [see this calculator](https://oljs.github.io/calculator/)
+
 - dark/light theme; 
 - responsive font;
 
