@@ -16,8 +16,14 @@
   --gradient-2: #cfcfcf;
 }
 
-.hidden {
-  display: none;
+[data-theme="light"] {
+  --color-bg: #ebebeb;
+  --color-font: #000;
+  --color-btn-1: #ccc;
+  --color-btn-2: #cbd2dc;
+  --color-btn-3: #9eb2cc;
+  --color-hover: rgba(0,0,0,0.05);
+  --color-btn-active: rgba(0,0,0,0.1);
 }
 
 html {
@@ -37,6 +43,10 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: Helvetica, Calibri, Arial, sans-serif;
+}
+
+.hidden {
+  display: none;
 }
 
 .calc {
