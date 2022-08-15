@@ -47,7 +47,6 @@ html {
   }
 }
 
-
 @media screen and (max-width: 780px) {
   html {
     font-size: calc(8px + (30 - 20) * (100vw - 320px) / (1280 - 320));
@@ -194,7 +193,7 @@ body {
 
 .calc__result {
   display: block;
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 1.1;
   color: var(--color-font);
   background: var(--color-hover);
