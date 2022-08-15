@@ -27,12 +27,31 @@
 }
 
 html {
-  font-size: 15px;
+  font-size: 12px;
   background: #ccc;
   background-image:
     radial-gradient(60% 25% ellipse at center top, var(--gradient-1) 0%, rgba(0,0,0,0) 100%),
     radial-gradient(80% 25% ellipse at center bottom, var(--gradient-1) 0%, var(--gradient-2) 100%);
   background-attachment: fixed;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: calc(8px + (30 - 20) * (100vw - 320px) / (1280 - 320));
+  }
 }
 
 body {
