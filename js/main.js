@@ -43,6 +43,7 @@ document.querySelector('.calc__buttons').onclick = (event) => {
   const key = event.target.textContent;
   
   if (digit.includes(key)) {
+    
     if (b === '' && sign === '') {
       a += key;
       result.textContent = a;
